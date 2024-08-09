@@ -8,7 +8,7 @@ The general idea of the program is to model how humans perform object recognitio
 
 **Findings:**
 
-On MNIST, the network learns to accurately classify known numbers (0-4), and consistently gives the "I'm not sure" output for numbers outside this range and pure static, even though there's no static in its training data. However, after enough training, the network begins to overfit on numbers and starts "recognizing" static. 
+On MNIST, the network learns to accurately classify known numbers (0-4), and consistently gives the "I'm not sure" output for both other numbers and pure static, even though there's no static in its training data. However, after enough training, the network begins to overfit on numbers and starts "recognizing" static. 
 
 **Limitations and next steps:**
 
